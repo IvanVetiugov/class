@@ -1,0 +1,242 @@
+@import url(second.css);
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+.a{
+    scroll-behavior: smooth;
+}
+.main{
+    background-image: linear-gradient(45deg,#c8fbff,hsl(248, 77%, 37%));
+    height: 100vh;
+    animation: bg 1s infinite;
+    text-align: center;
+}
+
+.main-title{
+    transform: translateY(375px);
+    font-size: 100px;
+    color: white;
+
+}
+span{
+    animation-name: move-and-pulsar;
+    animation-iteration-count: infinite;
+    display: inline-block;
+
+}
+
+.span-one{
+    animation-duration: 3s;
+}
+.span-two{
+    animation-duration: 5s;
+}
+.span-three{
+    animation-duration: 4s;
+}
+@keyframes move-and-pulsar{
+    0%{
+        opacity: 0;
+        color: white;
+
+        box-shadow: none;
+    }
+    25%{
+        opacity: 1;
+        color: #2549c1;
+        transform: translate(-100px,-100px);
+
+    }
+    75%{
+        opacity: 1;
+        color: #2549c1;
+        transform: translate(100px,100px);
+
+    }
+    100%{
+        opacity: 0;
+        color: white;
+        transform: translate(0px,0px);
+
+    }
+    
+}
+.go-to-main{
+    background-color: #2323236b;
+    padding: 30px 50px 30px 50px;
+    border-radius: 25px;
+    width: 250px;
+    height: 22.5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    vertical-align: middle;
+}
+.go-to-main:hover{
+    padding: 60px 100px;
+    transition: 1s;
+    height: auto;
+    font-size: 25px;
+}
+.go-to-main-a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+
+}
+.weekend{
+    background-color: #499a64;
+    color: white;
+}
+.nav-a{
+    margin-top: 25px;
+    background-color: #c9d4ff;
+    box-shadow: rgb(61, 61, 61) 5px 3px 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.nav-a:hover{
+    padding: 20px;
+    box-shadow: rgb(61, 61, 61) 10px 5px 2.5px;
+    transition: 1s;
+}
+.nav-plan{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-week{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.plan{
+    height: 100vh;
+    background-image: linear-gradient(45deg,#16833a,hsl(113, 100%, 83%));
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.plan-h{
+    font-size: 85px;
+    text-align: center;
+    color: white;
+}
+.week-plan{
+    background-color: white;
+    font-size: 20px;
+    border: black 3px solid;
+    padding: 10px; 
+    box-shadow: rgb(61, 61, 61) 10px 10px 10px;
+    text-align: start;
+}
+.week-plan:hover{
+    font-size: 25px;
+    transition: 0.5s;
+}
+.week-caption{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.week-day-white{
+    color: rgb(255, 255, 255);
+}
+.week{
+    background-color: black;
+    border: black 1px solid;
+
+    border-color: black;
+    border-style: solid;
+    border-collapse: separate;
+}
+
+.week-day{
+    padding: 5px;
+}
+.week-day:hover{
+    padding: 5px 10px;
+}
+.plan-day{
+    background-image: linear-gradient(45deg, rgb(233, 210, 38),rgb(234, 94, 59));
+    height: 893.33px;
+    padding-top: 50px;
+}
+.plan-of-day{
+    display: flex;
+    justify-content: space-around;
+}
+.day{
+    margin-top: 100px;
+}
+.info{
+    background-image: linear-gradient(45deg, rgb(255, 197, 197),rgb(255, 143, 69));
+    height: 893.33px;
+    padding-top: 50px;
+}
+.info-h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+.info-h{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.info-p{
+    margin-bottom: 10px;
+}
+.info-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.info-text{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.515);
+    box-shadow: rgb(61, 61, 61) 5px 5px 15px;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news{
+    background-image: linear-gradient(45deg, #6a62ff,rgb(255, 111, 111));
+    height: 893.33px;
+    padding-top: 50px;
+}
+.news-text{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.082);
+    box-shadow: rgb(61, 61, 61) 15px 5px 25px;
+    padding: 50px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
